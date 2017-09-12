@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 /**
- * Intent explicitos
+ * Android Intent explicitos
  */
 public class MainActivity extends AppCompatActivity {
 
