@@ -30,8 +30,9 @@ public class SegundaActivity extends AppCompatActivity {
             boolean isTrue = extras.getBoolean("boolean");
             if (isTrue){
                 tvData.setText(data);
-                Toast.makeText(this, "Se recibio un booleano desde MainActivity", Toast.LENGTH_SHORT).show();
-            }else{
+                Toast.makeText(this, "Se recibio un booleano desde MainActivity.", Toast.LENGTH_SHORT).show();
+            }
+            else{
                 Toast.makeText(this, "No se recibio nada :c", Toast.LENGTH_LONG).show();
             }
             //en caso de no tener daos dentro dle extra, entrara a esta parte de la condicion
